@@ -70,7 +70,13 @@ const About = () => {
             I'm a junior front end developer.I want to build my career on web development and want to learn new technology.My passion is to become a quality developer and want to make my skill stronger. <br /><br />
             My job is to build website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch in project and make sure that it is eye-catching and easy to use. My aim is to bring perfection in the most creative way.
           </p>
-          <button class="btn btn-outline text-white rounded-3xl">Download Resume</button>
+          <a href="https://drive.google.com/file/d/1fxMgPQkQlxDWwFoU-ApNBFZNjKBOFJXy/view?usp=sharing"
+               target="_blank"
+              >
+                <button class="btn btn-outline rounded-3xl text-white">
+                  Download Resume
+                </button>
+              </a>
         </div>
       </div>
     </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div class="navbar bg-base-100">
+    <div class="navbar bg-base-100 lg:px-36">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -39,7 +39,7 @@ const Navbar = () => {
           </li>
           </ul>
         </div>
-        <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+        <a class="btn btn-ghost normal-case text-xl">Arif Portfolio</a>
       </div>
       <div class="navbar-end hidden lg:flex">
         <ul class="menu menu-horizontal p-0">
