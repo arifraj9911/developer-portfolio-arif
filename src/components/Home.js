@@ -5,6 +5,7 @@ import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import Skill from "./Skill";
 import Portfolio from "./Portfolio";
+import Contact from "./Contact";
 
 const Home = () => {
   return (
@@ -42,6 +43,7 @@ const Home = () => {
       <About></About>
       <Skill></Skill>
       <Portfolio></Portfolio>
+      <Contact></Contact>
     </div>
   );
 };
