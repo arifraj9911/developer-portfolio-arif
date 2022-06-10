@@ -1,13 +1,31 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import Project from "./Project";
+import ProjectsOverview from "./ProjectsOverview";
+import { FaArrowRight } from "react-icons/fa";
 
 const Portfolio = () => {
+  const [projects, setProjects] = useState([]);
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    fetch("products.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setProjects(data);
+      });
+  }, []);
   return (
-    <div className="mt-20">
+    <div id="portfolio" className="mt-20">
       <h2 className="text-xl font-bold">Portfolio</h2>
       <hr className="w-10 mt-2 mb-4 mx-auto" />
       <h2 className="text-4xl lg:text-6xl font-bold mb-16">My Work Example</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-12">
-        <div class="card card-compact w-96 bg-black shadow-xl">
+        {/* {projects.map((project) => (
+          <Project key={project.id} project={project}></Project>
+        ))} */}
+
+        <div class="card card-compact max-w-sm bg-black shadow-xl">
           <figure>
             <img
               src="https://i.ibb.co/hy4zL3G/Component-House.png?w=400&h=225"
@@ -44,9 +62,10 @@ const Portfolio = () => {
                 </button>
               </a>
             </div>
+            
           </div>
         </div>
-        <div class="card card-compact w-96 bg-black shadow-xl">
+        <div class="card card-compact max-w-sm bg-black shadow-xl">
           <figure>
             <img
               src="https://i.ibb.co/xJG6cfj/fruit-inventory.png?w=400&h=225"
@@ -87,7 +106,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div class="card card-compact w-96 bg-black shadow-xl">
+        <div class="card card-compact max-w-sm bg-black shadow-xl">
           <figure>
             <img
               src="https://i.ibb.co/pRG4kn2/Wedding-photography.png?w=400&h=225"
@@ -98,16 +117,20 @@ const Portfolio = () => {
             <h2 class="card-title text-white">
               Project: <span className="font-bold">RAZ Photography</span>
             </h2>
-            <p>
-            A Photography Website Provided Service for Authorized User.
-            </p>
+            <p>A Photography Website Provided Service for Authorized User.</p>
             <div class="card-actions flex justify-start">
-              <a href="https://weeding-photographer-b39e1.web.app/" target="_blank">
+              <a
+                href="https://weeding-photographer-b39e1.web.app/"
+                target="_blank"
+              >
                 <button class="btn btn-outline btn-primary btn-xs">
                   Live Website
                 </button>
               </a>
-              <a href="https://github.com/arifraj199/raz-photography" target="_blank">
+              <a
+                href="https://github.com/arifraj199/raz-photography"
+                target="_blank"
+              >
                 <button class="btn btn-outline btn-primary btn-xs">
                   Project Code
                 </button>
@@ -115,7 +138,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div class="card card-compact w-96 bg-black shadow-xl">
+        <div class="card card-compact max-w-sm bg-black shadow-xl">
           <figure>
             <img
               src="https://i.ibb.co/GxKZ0kC/Camera-Hub.png?w=400&h=225"
@@ -126,16 +149,20 @@ const Portfolio = () => {
             <h2 class="card-title text-white">
               Project: <span className="font-bold">Camera Hub</span>
             </h2>
-            <p>
-              A simple camera hub website with reviews.
-            </p>
+            <p>A simple camera hub website with reviews.</p>
             <div class="card-actions flex justify-start">
-              <a href="https://assignment-camera-hub.netlify.app/" target="_blank">
+              <a
+                href="https://assignment-camera-hub.netlify.app/"
+                target="_blank"
+              >
                 <button class="btn btn-outline btn-primary btn-xs">
                   Live Website
                 </button>
               </a>
-              <a href="https://github.com/arifraj199/camera-hub" target="_blank">
+              <a
+                href="https://github.com/arifraj199/camera-hub"
+                target="_blank"
+              >
                 <button class="btn btn-outline btn-primary btn-xs">
                   Project Code
                 </button>
@@ -143,7 +170,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div class="card card-compact w-96 bg-black shadow-xl">
+        <div class="card card-compact max-w-sm bg-black shadow-xl">
           <figure>
             <img
               src="https://i.ibb.co/Pmyq0sB/Gadget-fair.png?w=400&h=225"
@@ -154,16 +181,20 @@ const Portfolio = () => {
             <h2 class="card-title text-white">
               Project: <span className="font-bold">Gadget Fair</span>
             </h2>
-            <p>
-              A Simple Website where find Phone.
-            </p>
+            <p>A Simple Website where find Phone.</p>
             <div class="card-actions flex justify-start">
-              <a href="https://gadget-fair-assignment.netlify.app/" target="_blank">
+              <a
+                href="https://gadget-fair-assignment.netlify.app/"
+                target="_blank"
+              >
                 <button class="btn btn-outline btn-primary btn-xs">
                   Live Website
                 </button>
               </a>
-              <a href="https://github.com/arifraj199/gadget-fair" target="_blank">
+              <a
+                href="https://github.com/arifraj199/gadget-fair"
+                target="_blank"
+              >
                 <button class="btn btn-outline btn-primary btn-xs">
                   Project Code
                 </button>
@@ -172,6 +203,15 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
+      <div className="mt-12 text-right mr-16"> 
+              <button
+                onClick={() => navigate("/projects/")}
+                className="btn btn-primary"
+              >
+                Projects Overview
+                <FaArrowRight className="ml-1"></FaArrowRight>
+              </button>
+            </div>
     </div>
   );
 };

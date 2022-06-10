@@ -1,0 +1,53 @@
+[
+    {
+      "id": "62a31cb80ca38d71e3fd50f0",
+      "picture": "https://i.ibb.co/hy4zL3G/Component-House.png",
+      "project_name": "Component House",
+      "technology_name": "HTML , Tailwind CSS, DaisyUI, React Js, React Router, Firebase, React Hook Form, React Toastify, Mongodb, Express Js, Stripe.",
+      "feature_one": "User can purchase product, see her/his product and cancel her/his product and add review and user review will be shown on homepage.",
+      "feature_two": "An admin can manage all users, all products, update product and make admin any users.",
+      "feature_three": "Implement jsonwebtoken in login and signup.",
+      "feature_four": "International payment system implement by stripe so that user can do payment ",
+      "description": "A Full-Stack Manufacturing Website of Parts of Computer or Laptop."
+    },
+    {
+      "id": "62a31cb882dbbecb2eec0f9c",
+      "picture": "https://i.ibb.co/xJG6cfj/fruit-inventory.png",
+      "project_name": "Fruits & Vegetable Inventory",
+      "technology_name": "HTML ,CSS, React Bootstrap, React Js, React Router, Firebase, React Hook Form, React,Toastify, Mongodb, Express Js.",
+      "feature_one": "User can log in with email and password or by Google.",
+      "feature_two": "An authorized user can order products, restock quantity and manage products. He/She can see only his/her product.",
+      "feature_three": "Implement jsonweb access token in login and signup. All route are private except home and blog, 404 page implement.",
+      "description": "A Full-Stack Fruits & Vegetable Inventory Website where Buy Product, Update Product, Manage Product."
+    },
+    {
+      "id": "62a31cb8aee1a1027e6de6ec",
+      "picture": "https://i.ibb.co/pRG4kn2/Wedding-photography.png",
+      "project_name": "RAZ Photography",
+      "technology_name": "HTML ,CSS, React Bootstrap, React Js, React Router, Firebase, React Firebase Hooks,React Toastify, Mongodb, Express Js.",
+      "feature_one": "Implement authentication login , signup, social authentication (Google).",
+      "feature_two": "Service page is private, only user can place any service.",
+      "feature_three": "Blog page, about page and 404 page implement.",
+      "description": "A Photography Website Provided Service for Authorized User."
+    },
+    {
+      "id": "62a31cb866438a8cad39fbed",
+      "picture": "https://i.ibb.co/GxKZ0kC/Camera-Hub.png",
+      "project_name": "Camera Hub",
+      "technology_name": "HTML ,CSS, React Bootstrap, React Js, React Router,React Chart",
+      "feature_one": "Design implement using react bootstrap and for responsive using media query.",
+      "feature_two": "React router implement and added 2 chart on the dashboard route using react chart",
+      "feature_three": "404 page, blogs page and FAQ page implement",
+      "description": "A simple single page application where using react router."
+    },
+    {
+      "id": "62a31cb81f8cae4d96f6aa99",
+      "picture": "https://i.ibb.co/Pmyq0sB/Gadget-fair.png",
+      "project_name": "Gadget Fair",
+      "technology_name": "HTML ,CSS, Bootstrap,JavaScript,ES6",
+      "feature_one": "Design implement using css and bootstrap.",
+      "feature_two": "website is responsive and using media query for responsive",
+      "feature_three": "Search optionality implement.",
+      "description": "A simple JavaScript website where find phone by searching and explore functionality implement."
+    }
+  ]

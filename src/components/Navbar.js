@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div class="navbar bg-base-100 lg:px-36">
+    <div class="navbar bg-base-100 lg:px-28">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -26,34 +27,54 @@ const Navbar = () => {
             class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-            <a>Home</a>
+            <Link to="/home">Home</Link>
           </li>
           <li>
-            <a>About</a>
+            <a href="home#about">About</a>
           </li>
           <li>
-            <a>Portfolio</a>
+            <a href="home#skill">Skills</a>
           </li>
           <li>
-            <a>Blog</a>
+            <a href="home#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <Link to="/projects">Projects</Link>
+          </li>
+          <li>
+            <Link to="/blogs">Blogs</Link>
+          </li>
+          <li>
+            <a href="home#contact">Contact</a>
           </li>
           </ul>
         </div>
-        <a class="btn btn-ghost normal-case text-xl">Arif Portfolio</a>
+        <Link to="/" class="btn btn-ghost normal-case text-xl">
+          Arif Portfolio
+        </Link>
       </div>
       <div class="navbar-end hidden lg:flex">
         <ul class="menu menu-horizontal p-0">
           <li>
-            <a>Home</a>
+            <Link to="/home">Home</Link>
           </li>
           <li>
-            <a>About</a>
+            <a href="home#about">About</a>
           </li>
           <li>
-            <a>Portfolio</a>
+            <a href="home#skill">Skills</a>
           </li>
           <li>
-            <a>Blog</a>
+            <a href="home#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <Link to="/projects">Projects</Link>
+          </li>
+          <li>
+            <Link to="/blogs">Blogs</Link>
+          </li>
+          <li>
+            <a href="home#contact">Contact</a>
           </li>
         </ul>
       </div>

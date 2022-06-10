@@ -31,11 +31,11 @@ const Contact = () => {
     event.target.reset();
   };
   return (
-    <div className="mt-24 bg-slate-900 py-12">
+    <div id="contact" className="mt-24 bg-slate-900 py-12">
       <h2 className="text-xl font-bold">Contact Me</h2>
       <hr className="w-10 mt-2 mb-4 mx-auto" />
       <h2 className="text-4xl lg:text-6xl font-bold mb-16">Get In Touch</h2>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-2 p-8 gap-10 items-center">
         <div>
           <h2 className="text-xl font-bold mb-3">Message Us</h2>
           <form ref={form} onSubmit={handleForm}>
@@ -67,7 +67,7 @@ const Contact = () => {
             />
           </form>
         </div>
-        <div>
+        <div className="p-8">
           <div className="flex ">
             <div className="mr-5 mt-2">
               <FaLocationArrow className="text-2xl"></FaLocationArrow>
@@ -77,7 +77,7 @@ const Contact = () => {
               <p>Gazipur District,Dhaka,Bangladesh</p>
             </div>
           </div>
-          <hr className="mb-12 mt-6 w-96" />
+          <hr className="mb-12 mt-6 w-72 lg:w-96" />
 
           <div className="flex ">
             <div className="mr-5 mt-2">
@@ -88,7 +88,7 @@ const Contact = () => {
               <p>+8801637014306</p>
             </div>
           </div>
-          <hr className="mb-12 mt-6 w-96" />
+          <hr className="mb-12 mt-6 w-72 lg:w-96" />
 
           <div className="flex ">
             <div className="mr-5 mt-2">
