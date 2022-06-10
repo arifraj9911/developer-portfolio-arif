@@ -3,7 +3,8 @@ import React from "react";
 const Skill = () => {
   return (
     <div className="text-center my-10">
-      <h2 className="text-lg">Skill</h2>
+      <h2 className="text-xl font-bold">Skills</h2>
+      <hr className="w-10 mt-2 mb-4 mx-auto" />
       <h2 className="text-6xl font-bold mb-4">My Expertise</h2>
       <div className="block lg:flex gap-20 justify-center mt-12">
         <div className="flex flex-col text-left">
