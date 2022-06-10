@@ -3,6 +3,7 @@ import About from "./About";
 import { FaFacebook } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
+import Skill from "./Skill";
 
 const Home = () => {
   return (
@@ -38,6 +39,7 @@ const Home = () => {
         </div>
       </div>
       <About></About>
+      <Skill></Skill>
     </div>
   );
 };
