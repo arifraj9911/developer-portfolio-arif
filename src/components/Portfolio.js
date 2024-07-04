@@ -27,20 +27,15 @@ const Portfolio = () => {
 
         <div class="card card-compact max-w-sm bg-black shadow-xl">
           <figure>
-            <img
-              src="https://i.ibb.co/hy4zL3G/Component-House.png?w=400&h=225"
-              alt="Shoes"
-            />
+            <img src="https://i.ibb.co/R02mbWt/sport-Eye.png" alt="Shoes" />
           </figure>
           <div class="card-body text-left">
             <h2 class="card-title text-white">
-              Project: <span className="font-bold">Component House</span>
+              Project: <span className="font-bold">Sports EYE</span>
             </h2>
-            <p>
-              A Full-Stack Manufacturing Website of Parts of Computer or Laptop.
-            </p>
+            <p>A Full-Stack Sports Blog Website Build with React.</p>
             <div class="card-actions flex justify-start">
-              <a href="https://component-house.web.app/" target="_blank">
+              <a href="https://sports-blog-f1e26.web.app/" target="_blank">
                 <button class="btn btn-outline btn-primary btn-xs">
                   Live Website
                 </button>
@@ -62,27 +57,22 @@ const Portfolio = () => {
                 </button>
               </a>
             </div>
-            
           </div>
         </div>
         <div class="card card-compact max-w-sm bg-black shadow-xl">
           <figure>
-            <img
-              src="https://i.ibb.co/xJG6cfj/fruit-inventory.png?w=400&h=225"
-              alt="Shoes"
-            />
+            <img src="https://i.ibb.co/tbZBQfJ/tourism.png" alt="Shoes" />
           </figure>
           <div class="card-body text-left">
             <h2 class="card-title text-white">
-              Project:{" "}
-              <span className="font-bold">Fruits & Vegetable Inventory</span>
+              Project: <span className="font-bold">Travel Tribe</span>
             </h2>
-            <p>
-              A Full-Stack Fruits & Vegetable Inventory Website where Buy
-              Product, Update Product, Manage Product.
-            </p>
+            <p>A Full-Stack Tourism Management Website Build with React.</p>
             <div class="card-actions flex justify-start">
-              <a href="https://fruits-inventory.web.app/" target="_blank">
+              <a
+                href="https://tourism-management-69cfd.web.app/"
+                target="_blank"
+              >
                 <button class="btn btn-outline btn-primary btn-xs">
                   Live Website
                 </button>
@@ -108,19 +98,16 @@ const Portfolio = () => {
         </div>
         <div class="card card-compact max-w-sm bg-black shadow-xl">
           <figure>
-            <img
-              src="https://i.ibb.co/pRG4kn2/Wedding-photography.png?w=400&h=225"
-              alt="Shoes"
-            />
+            <img src="https://i.ibb.co/Hp45D67/matrimony.png" alt="Shoes" />
           </figure>
           <div class="card-body text-left">
             <h2 class="card-title text-white">
-              Project: <span className="font-bold">RAZ Photography</span>
+              Project: <span className="font-bold">Love Nest Matrimony</span>
             </h2>
-            <p>A Photography Website Provided Service for Authorized User.</p>
+            <p>A Full Stack Matrimony Website Build with React.</p>
             <div class="card-actions flex justify-start">
               <a
-                href="https://weeding-photographer-b39e1.web.app/"
+                href="https://project-matrimony-9e690.web.app/"
                 target="_blank"
               >
                 <button class="btn btn-outline btn-primary btn-xs">
@@ -140,19 +127,45 @@ const Portfolio = () => {
         </div>
         <div class="card card-compact max-w-sm bg-black shadow-xl">
           <figure>
-            <img
-              src="https://i.ibb.co/GxKZ0kC/Camera-Hub.png?w=400&h=225"
-              alt="Shoes"
-            />
+            <img src="https://i.ibb.co/9VjZC1v/city-palace.png" alt="Shoes" />
           </figure>
           <div class="card-body text-left">
             <h2 class="card-title text-white">
-              Project: <span className="font-bold">Camera Hub</span>
+              Project: <span className="font-bold">City Palace</span>
             </h2>
-            <p>A simple camera hub website with reviews.</p>
+            <p>A Real State Apartment Website Build with React</p>
             <div class="card-actions flex justify-start">
               <a
-                href="https://assignment-camera-hub.netlify.app/"
+                href="https://apartment-react-assignment.web.app/"
+                target="_blank"
+              >
+                <button class="btn btn-outline btn-primary btn-xs">
+                  Live Website
+                </button>
+              </a>
+              <a
+                href="https://github.com/arifraj199/camera-hub"
+                target="_blank"
+              >
+                <button class="btn btn-outline btn-primary btn-xs">
+                  Project Code
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card card-compact max-w-sm bg-black shadow-xl">
+          <figure>
+            <img src="https://i.ibb.co/ykQf9pf/ticketing.png" alt="Shoes" />
+          </figure>
+          <div class="card-body text-left">
+            <h2 class="card-title text-white">
+              Project: <span className="font-bold">Smart Ticketing</span>
+            </h2>
+            <p>A Simple Ticketing Website Build with Core Javascript</p>
+            <div class="card-actions flex justify-start">
+              <a
+                href="https://smart-ticketing-assignment.netlify.app/"
                 target="_blank"
               >
                 <button class="btn btn-outline btn-primary btn-xs">
@@ -203,15 +216,15 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      <div className="mt-12 text-right mr-16"> 
-              <button
-                onClick={() => navigate("/projects/")}
-                className="btn btn-primary"
-              >
-                Projects Overview
-                <FaArrowRight className="ml-1"></FaArrowRight>
-              </button>
-            </div>
+      <div className="mt-12 text-right mr-16">
+        <button
+          onClick={() => navigate("/projects/")}
+          className="btn btn-primary"
+        >
+          Projects Overview
+          <FaArrowRight className="ml-1"></FaArrowRight>
+        </button>
+      </div>
     </div>
   );
 };
