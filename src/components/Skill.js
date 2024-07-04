@@ -17,6 +17,12 @@ const Skill = () => {
           <span className="font-bold mb-1">CSS3</span>
           <progress
             class="progress progress-error w-80 mb-4"
+            value="90"
+            max="100"
+          ></progress>
+          <span className="font-bold mb-1">Tailwind CSS</span>
+          <progress
+            class="progress progress-error w-80 mb-4"
             value="85"
             max="100"
           ></progress>
@@ -34,6 +40,12 @@ const Skill = () => {
           ></progress>
         </div>
         <div className="flex flex-col text-left">
+          <span className="font-bold mb-1">Rest API</span>
+          <progress
+            class="progress progress-error w-80 mb-4"
+            value="70"
+            max="100"
+          ></progress>
           <span className="font-bold mb-1">Firebase</span>
           <progress
             class="progress progress-error w-80 mb-4"
