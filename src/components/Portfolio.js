@@ -41,7 +41,7 @@ const Portfolio = () => {
                 </button>
               </a>
               <a
-                href="https://github.com/arifraj199/component-house-client"
+                href="https://github.com/arifraj9911/sports-blog-client"
                 target="_blank"
               >
                 <button class="btn btn-outline btn-primary btn-xs">
@@ -49,7 +49,7 @@ const Portfolio = () => {
                 </button>
               </a>
               <a
-                href="https://github.com/arifraj199/component-house-server"
+                href="https://github.com/arifraj9911/sports-blog-server"
                 target="_blank"
               >
                 <button class="btn btn-outline btn-primary btn-xs">
@@ -78,7 +78,7 @@ const Portfolio = () => {
                 </button>
               </a>
               <a
-                href="https://github.com/arifraj199/fruits-inventory-client"
+                href="https://github.com/arifraj9911/tourism-management-client"
                 target="_blank"
               >
                 <button class="btn btn-outline btn-primary btn-xs">
@@ -86,7 +86,7 @@ const Portfolio = () => {
                 </button>
               </a>
               <a
-                href="https://github.com/arifraj199/fruits-inventory-server"
+                href="https://github.com/arifraj9911/tourism-management-server"
                 target="_blank"
               >
                 <button class="btn btn-outline btn-primary btn-xs">
@@ -115,11 +115,19 @@ const Portfolio = () => {
                 </button>
               </a>
               <a
-                href="https://github.com/arifraj199/raz-photography"
+                href="https://github.com/arifraj9911/project-matrimony-client"
                 target="_blank"
               >
                 <button class="btn btn-outline btn-primary btn-xs">
-                  Project Code
+                  Client Code
+                </button>
+              </a>
+              <a
+                href="https://github.com/arifraj9911/project-matrimony-server"
+                target="_blank"
+              >
+                <button class="btn btn-outline btn-primary btn-xs">
+                  Server Code
                 </button>
               </a>
             </div>
@@ -144,7 +152,7 @@ const Portfolio = () => {
                 </button>
               </a>
               <a
-                href="https://github.com/arifraj199/camera-hub"
+                href="https://github.com/arifraj9911/real-state-apartment"
                 target="_blank"
               >
                 <button class="btn btn-outline btn-primary btn-xs">
@@ -173,7 +181,7 @@ const Portfolio = () => {
                 </button>
               </a>
               <a
-                href="https://github.com/arifraj199/camera-hub"
+                href="https://github.com/arifraj9911/Smart-Ticketing-Assignment"
                 target="_blank"
               >
                 <button class="btn btn-outline btn-primary btn-xs">

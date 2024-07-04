@@ -41,7 +41,7 @@ const ProjectsOverview = () => {
             </button>
           </a>
           <a
-            href="https://github.com/arifraj199/component-house-client"
+            href="https://github.com/arifraj9911/sports-blog-client"
             target="_blank"
           >
             <button class="btn btn-link btn-xs text-1xl lg:text-xl">
@@ -49,7 +49,7 @@ const ProjectsOverview = () => {
             </button>
           </a>
           <a
-            href="https://github.com/arifraj199/component-house-server"
+            href="https://github.com/arifraj9911/sports-blog-server"
             target="_blank"
           >
             <button class="btn btn-link btn-xs text-1xl lg:text-xl">
@@ -91,7 +91,7 @@ const ProjectsOverview = () => {
             </button>
           </a>
           <a
-            href="https://github.com/arifraj199/fruits-inventory-client"
+            href="https://github.com/arifraj9911/tourism-management-client"
             target="_blank"
           >
             <button class="btn btn-link btn-xs text-1xl lg:text-xl">
@@ -99,7 +99,7 @@ const ProjectsOverview = () => {
             </button>
           </a>
           <a
-            href="https://github.com/arifraj199/fruits-inventory-server"
+            href="https://github.com/arifraj9911/tourism-management-server"
             target="_blank"
           >
             <button class="btn btn-link btn-xs text-1xl lg:text-xl">
@@ -156,11 +156,19 @@ const ProjectsOverview = () => {
             </button>
           </a>
           <a
-            href="https://github.com/arifraj199/raz-photography"
+            href="https://github.com/arifraj9911/project-matrimony-client"
             target="_blank"
           >
             <button class="btn btn-link btn-xs text-1xl lg:text-xl">
-              Project Code
+              Client Code
+            </button>
+          </a>
+          <a
+            href="https://github.com/arifraj9911/project-matrimony-server"
+            target="_blank"
+          >
+            <button class="btn btn-link btn-xs text-1xl lg:text-xl">
+              Server Code
             </button>
           </a>
         </div>
@@ -190,7 +198,10 @@ const ProjectsOverview = () => {
               Live Website
             </button>
           </a>
-          <a href="https://github.com/arifraj199/camera-hub" target="_blank">
+          <a
+            href="https://github.com/arifraj9911/real-state-apartment"
+            target="_blank"
+          >
             <button class="btn btn-link btn-xs text-1xl lg:text-xl">
               Project Code
             </button>
@@ -223,7 +234,10 @@ const ProjectsOverview = () => {
               Live Website
             </button>
           </a>
-          <a href="https://github.com/arifraj199/camera-hub" target="_blank">
+          <a
+            href="https://github.com/arifraj9911/Smart-Ticketing-Assignment"
+            target="_blank"
+          >
             <button class="btn btn-link btn-xs text-1xl lg:text-xl">
               Project Code
             </button>
