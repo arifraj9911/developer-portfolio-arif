@@ -23,7 +23,7 @@ const Home = () => {
           <div className="mt-10 lg:mr-36 w-full lg:w-1/2">
             <h1 class="text-xl lg:text-2xl font-bold">Hello! I'm</h1>
             <h1 class="text-4xl lg:text-7xl font-bold">Arif Hossain</h1>
-            <p class="py-6">Jr. Front End Web Developer</p>
+            <p class="py-6">Front End Web Developer | React Developer</p>
             <div className="flex">
               <button class="btn btn-accent rounded-3xl mr-3">Hire Me</button>
               <a href="https://drive.google.com/file/d/1fxMgPQkQlxDWwFoU-ApNBFZNjKBOFJXy/view?usp=sharing"
